@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundblueblur"
+    tools:context=".Fragments.QLPhieuMuonFragment">
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rcvPhieuMuon"
+        android:layout_alignParentTop="true"
+        android:layout_above="@id/fabAddPhieuMuon"
+        />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fabAddPhieuMuon"
+        android:layout_margin="16dp"
+        app:layout_anchor="@+id/rcvPhieuMuon"
+        app:layout_anchorGravity="bottom|end"
+        android:src="@drawable/ic_add"
+        />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

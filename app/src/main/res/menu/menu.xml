@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Quản Lý">
+        <menu>
+            <item
+                android:id="@+id/mQLPhieuMuon"
+                android:title="Quản Lý Phiếu Mượn"
+                android:icon="@drawable/ic_quan_ly_phieu_muon"/>
+
+            <item
+                android:id="@+id/mQLLoaiSach"
+                android:title="Quản Lý Loại Sách"
+                android:icon="@drawable/ic_quan_ly_loai_sach"/>
+
+            <item
+                android:id="@+id/mQLSach"
+                android:title="Quản Lý Sách"
+                android:icon="@drawable/ic_quan_ly_sach"/>
+
+            <item
+                android:id="@+id/mQLThanhVien"
+                android:title="Quản Lý Thành Viên"
+                android:icon="@drawable/ic_quan_ly_thanh_vien"/>
+        </menu>
+
+    </item>
+
+    <item android:title="Thống kê">
+        <menu>
+            <item
+                android:id="@+id/mTop10"
+                android:title="Top 10 Sách HOT"
+                android:icon="@drawable/ic_top_10"
+                />
+            <item
+                android:id="@+id/mDoanhThu"
+                android:title="Doanh Thu"
+                android:icon="@drawable/ic_doanh_thu"
+                />
+        </menu>
+
+    </item>
+
+    <item android:title="Người Dùng">
+        <menu>
+            <item
+                android:id="@+id/mDoiMatKhau"
+                android:title="Đổi Mật Khẩu"
+                android:icon="@drawable/ic_doi_mat_khau"
+                />
+            <item
+                android:id="@+id/mDangXuat"
+                android:title="Đăng Xuất"
+                android:icon="@drawable/ic_dang_xuat"
+                />
+        </menu>
+
+    </item>
+</menu>

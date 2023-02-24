@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvTenDialogThanhVien"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="THÀNH VIÊN"
+        android:gravity="center"
+        android:textSize="35sp"
+        />
+
+    <TextView
+        android:layout_marginStart="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tên Thành Viên"
+        android:textSize="20sp"
+        />
+    <EditText
+        android:id="@+id/edtThanhVienThem"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:textSize="20sp"
+        android:hint="Tên thành viên"
+        android:textColor="#FF0000"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="18dp"
+        />
+    <TextView
+        android:layout_marginStart="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Năm Sinh"
+        android:textSize="20sp"
+        />
+    <EditText
+        android:id="@+id/edtNamSinhThem"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:textSize="20sp"
+        android:hint="Năm sinh"
+        android:textColor="#FF0000"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="18dp"
+        />
+
+</LinearLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="6dp"
+    android:backgroundTint="@color/white"
+    android:id="@+id/cardSach">
+    <RelativeLayout
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvTenSC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="Tên Sách"
+            android:textAllCaps="true"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="25sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/tvMaSC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvTenSC"
+            android:layout_alignParentLeft="true"
+            android:text="Mã sách"
+
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/tvMaLoaiSC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mã Loại"
+            android:textSize="20sp"
+            android:textColor="@android:color/holo_blue_dark"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/tvMaSC"
+            />
+        <TextView
+            android:id="@+id/tvTheLoai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thể Loại"
+            android:textSize="20sp"
+            android:textColor="@android:color/holo_blue_dark"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/tvMaLoaiSC"
+            />
+        <TextView
+            android:id="@+id/tvGiaThue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Giá Thuê"
+            android:textSize="20sp"
+            android:textColor="@android:color/holo_blue_dark"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/tvTheLoai"
+            />
+
+        <ImageView
+            android:id="@+id/ivEditSC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_edit"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="25dp"
+            />
+        <ImageView
+            android:id="@+id/ivDeleteSC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_delete"
+            android:layout_marginTop="8dp"
+            android:layout_below="@id/ivEditSC"
+            android:layout_alignParentRight="true"
+            />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
